@@ -61,7 +61,7 @@ conn_params = {
   'host': 'svc-6ae25181-c8fa-4355-ad9a-79b01103797b-dml.aws-virginia-5.svc.singlestore.com',
   'user': 'admin', 
   'password': 'pUtLloaPy6aIAJecHcSCwJFdkCzb9nUx', 
-  'database': 'iceberg_demo',
+  'database': 'iceberbg_demo',
   'port': 3306, 
 }
 
