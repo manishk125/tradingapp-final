@@ -58,10 +58,10 @@ numshares = 50
 #   'port': 3306, 
 # }
 conn_params = {
-  'host': 'svc-bd788f8f-c95e-470d-a767-462840795288-dml.aws-oregon-3.svc.singlestore.com',
+  'host': 'svc-6ae25181-c8fa-4355-ad9a-79b01103797b-dml.aws-virginia-5.svc.singlestore.com',
   'user': 'admin', 
-  'password': 'Singlestore1', 
-  'database': 'vectordb',
+  'password': 'pUtLloaPy6aIAJecHcSCwJFdkCzb9nUx', 
+  'database': 'iceberg_demo',
   'port': 3306, 
 }
 
@@ -79,8 +79,8 @@ def connect_to_snowflake():
     try:
         conn = snowflake.connector.connect(
             account = 'SOUQODV-SNOWFLAKE_INTEGRATION',
-            user = 'INGRIDXU',
-            password = 'ukt-pju7tjq7quj4VFZ',
+            user = 'MANISHK',
+            password = 'APQG9fRG',
             warehouse = 'CONTAINER_HOL_WH',
             role = 'ACCOUNTADMIN',
             database='stock_db',
