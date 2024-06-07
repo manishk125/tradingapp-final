@@ -17,7 +17,7 @@ st.set_page_config(layout="wide")
 
 
 st.title("SnowStore Portfolio Dashboard 📊")
-st.image("logo.png", width=400)
+st.image("logos.png", width=400)
 
 # Navigation sidebar
 st.sidebar.title("Navigation")
